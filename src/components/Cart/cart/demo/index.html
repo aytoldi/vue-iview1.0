@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <script src="./js/gouwu.js"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body onselectstart="return false;" style="-moz-user-select:none;">
+<table>
+    <thead>
+    <tr>
+        <th><input type="checkbox"></th>
+        <th>商品信息</th>
+        <th>数量</th>
+        <th>单价<span>（元）</span></th>
+        <th>金额<span>（元）</span></th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>
+            <img src="./cart/good.png">
+            <p>小呀小苹果（一）</p>
+        </td>
+        <td><span class="add"></span><span class="num">3</span><span class="dec"></span></td>
+        <td class="per">￥<span>1900</span></td>
+        <td class="money">￥<span>3800</span></td>
+        <td><a class="del"></a></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>
+            <img src="./cart/good.png">
+            <p>小呀小苹果（二）</p>
+        </td>
+        <td><span class="add"></span><span class="num">3</span><span class="dec"></span></td>
+        <td class="per">￥<span>1900</span></td>
+        <td class="money">￥<span>3800</span></td>
+        <td><a class="del"></a></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>
+            <img src="./cart/good.png">
+            <p>小呀小苹果（三）</p>
+        </td>
+        <td><span class="add"></span><span class="num">3</span><span class="dec"></span></td>
+        <td class="per">￥<span>1900</span></td>
+        <td class="money">￥<span>3800</span></td>
+        <td><a class="del"></a></td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td></td>
+        <td>已选：<span class="choosen">0</span>件&nbsp;&nbsp;共<span class="total">0</span>元</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><button class="sure">结账</button></td>
+    </tr>
+    </tfoot>
+</table>
+</body>
+</html>
+<script src="index.js"></script>
