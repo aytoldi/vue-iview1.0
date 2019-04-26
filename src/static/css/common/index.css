@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none
+
+}
+
+.text_center {
+    text-align: center;
+}
+
+.layout{
+    overflow-y: auto!important;
+}
+
+.ivu-select{
+    position: relative;
+}
+
+.tabContainer1  tr .ivu-table-cell {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
