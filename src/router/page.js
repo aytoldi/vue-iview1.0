@@ -22,10 +22,19 @@ let Cart = {
     ResultCart: () => import('../components/Cart/resultCart')
 }
 
+
+let Chart = {
+    Box: () => import('../components/Chart/box'),
+    Line: () => import('../components/Chart/line'),
+    Scirle:()=> import('../components/Chart/scirle'),
+}
+
 let components = {
     ...User,
-    ...Cart
+    ...Cart,
+    ...Chart
 }
+
 
 export default {
     ...page,
