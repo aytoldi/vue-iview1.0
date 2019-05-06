@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e3a19ad-9179-4831-bba6-91a72ef7c1ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Chart/box/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Chart/line/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Chart/scirle/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart/cart/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/cart/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/home/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/home/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="8e3a19ad-9179-4831-bba6-91a72ef7c1ba" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -147,67 +135,6 @@
               <item name="vue-iview1.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue-iview1.0" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="vue-iview1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-iview1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-iview1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-iview1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-iview1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-iview1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Chart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-iview1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-iview1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Chart" type="462c0819:PsiDirectoryNode" />
-              <item name="box" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-iview1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-iview1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Chart" type="462c0819:PsiDirectoryNode" />
-              <item name="line" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-iview1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-iview1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Chart" type="462c0819:PsiDirectoryNode" />
-              <item name="scirle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-iview1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-iview1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-iview1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-iview1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue-iview1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-iview1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -218,7 +145,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../react/antd/react-antd1.0" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -269,16 +196,15 @@
       <workItem from="1556252814424" duration="1213000" />
       <workItem from="1556254378114" duration="1236000" />
       <workItem from="1556260753296" duration="653000" />
-      <workItem from="1556275299638" duration="1828000" />
+      <workItem from="1556275299638" duration="1995000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6690000" />
+    <option name="totallyTimeSpent" value="6857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49590835" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

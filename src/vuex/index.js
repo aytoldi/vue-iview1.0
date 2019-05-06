@@ -8,7 +8,7 @@ import qs from 'qs'
 
 let state = {
     token: localStorage.getItem('token') || '',
-    user: {},//解析token之后获取用户的信息
+    user: {}, //解析token之后获取用户的信息
 }
 
 let getters = {
@@ -19,13 +19,15 @@ let getters = {
 
 //处理前段派发的action
 let actions = {
-    login({commit}, user) {
+    login({
+        commit
+    }, user) {
         return new Promise((resolve, reject) => {
             axios.post(apiUrl.userLogin, qs.stringify(user)).then((res) => {
                 let token = res.data.data.token;
                 window.localStorage.setItem('token', token)
                 axios.defaults.headers.common['Authorization'] = token;
-                commit('auth_success', token, user)
+                commit('auth_success', token, user) //reducer做的事情
                 resolve(res);
             }).catch(err => {
                 window.localStorage.removeItem('token')
@@ -33,22 +35,26 @@ let actions = {
             })
         })
     },
-    register({commit}, user) {
+    register({
+        commit
+    }, user) {
         return new Promise((resolve, reject) => {
             axios.post(apiUrl.userRegister, qs.stringify(user)).then((res) => {
-                let token = res.data.data.token;
-                window.localStorage.setItem('token', token)
-                axios.defaults.headers.common['Authorization'] = token;
-                commit('auth_success', token, user)
-                resolve(res);
-            })
+                    let token = res.data.data.token;
+                    window.localStorage.setItem('token', token)
+                    axios.defaults.headers.common['Authorization'] = token;
+                    commit('auth_success', token, user)
+                    resolve(res);
+                })
                 .catch(err => {
                     localStorage.removeItem('token')
                     reject(err)
                 })
         })
     },
-    logout({commit}) {
+    logout({
+        commit
+    }) {
         return new Promise((resolve, reject) => {
             commit('logout')
             localStorage.removeItem('token')
@@ -76,4 +82,3 @@ export default new Vuex.Store({
     mutations,
     actions
 })
-

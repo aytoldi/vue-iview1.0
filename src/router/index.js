@@ -116,7 +116,7 @@ _router.beforeEach((to, from, next) => {
     } else {
         next(); // meta:{state:''}
     }
-    //进不去login
+    //进不去login, 有token的情况下禁止进入login页面
     if (store.state.token && to.fullPath === '/login') {
         next('/home');
     }
